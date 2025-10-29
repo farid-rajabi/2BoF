@@ -1,0 +1,587 @@
+class CfgORBAT {
+
+    class 1_Marines {
+        id = 0;
+        idType = 0;
+        type = "MechanizedInfantry";
+        side = "West";
+        size = "Division";
+        commander = "";
+        commanderRank = "";
+        text = "1st Marine Division";
+        textShort = "1";
+        description = "";
+
+        class RCT_1 {
+            id = 0;
+            idType = 0;
+            type = "MechanizedInfantry";
+            side = "West";
+            size = "Regiment";
+            commander = "Michael Shupp";
+            commanderRank = "Colonel";
+            text = "Regimental Combat Team 1";
+            textShort = "RCT-1";
+            description = "";
+
+            class 3_5_Marines {
+                id = 0;
+                idType = 0;
+                type = "Infantry";
+                side = "West";
+                size = "Battalion";
+                commander = "Patrick J. Malay";
+                commanderRank = ""; // TODO: set LtCol
+                text = "3rd Battalion, 5th Marines";
+                textShort = "3/5";
+                description = "";
+
+                class I_5_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Brian R. Chontosh";
+                    commanderRank = "Captain";
+                    text = "Company I, 3rd Battalion, 5th Marines";
+                    textShort = "I/3/5";
+                    description = "";
+                };
+
+                class K_5_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Andrew J. McNulty";
+                    commanderRank = "Captain";
+                    text = "Company K, 3rd Battalion, 5th Marines";
+                    textShort = "K/3/5";
+                    description = "";
+                };
+
+                class L_5_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Eduardo C. Batanga";
+                    commanderRank = "Captain";
+                    text = "Company L, 3rd Battalion, 5th Marines";
+                    textShort = "L/3/5";
+                    description = "";
+                };
+
+                class Wpns_5_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Thomas Knowl";
+                    commanderRank = "Captain";
+                    text = "Weapons Company, 3rd Battalion, 5th Marines";
+                    textShort = "Wpns/3/5";
+                    description = "";
+                };
+            };
+
+            class M_14_Marines {
+                id = 0;
+                idType = 0;
+                type = "Artillery";
+                side = "West";
+                size = "Company";
+                commander = "Milton K. Parsons";
+                commanderRank = "Captain";
+                text = "Battery M, 4th Battalion, 14th Marines";
+                textShort = "M/4/14";
+                description = "";
+            };
+
+            class C_2_Marines {
+                id = 0;
+                idType = 0;
+                type = "Armored";
+                side = "West";
+                size = "Company";
+                commander = "Robert J. Bodisch Jr.";
+                commanderRank = "Captain";
+                text = "Company C, 2nd Tank Battalion";
+                textShort = "C/2";
+                description = "";
+            };
+
+            class 3_1_Marines {
+                id = 0;
+                idType = 0;
+                type = "Infantry";
+                side = "West";
+                size = "Battalion";
+                commander = "Willard A. Buhl";
+                commanderRank = ""; // TODO: set LtCol
+                text = "3rd Battalion, 1st Marines";
+                textShort = "3/1";
+                description = "";
+
+                class I_1_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Brett A. Clark";
+                    commanderRank = "Captain";
+                    text = "Company I, 3rd Battalion, 1st Marines";
+                    textShort = "I/3/1";
+                    description = "";
+                };
+
+                class K_1_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Timothy J. Jent";
+                    commanderRank = "Captain";
+                    text = "Company K, 3rd Battalion, 1st Marines";
+                    textShort = "K/3/1";
+                    description = "";
+                };
+
+                class L_1_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Brian G. Heatherman";
+                    commanderRank = "Captain";
+                    text = "Company L, 3rd Battalion, 1st Marines";
+                    textShort = "L/3/1";
+                    description = "";
+                };
+
+                class Wpns_1_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Robert Belknap II";
+                    commanderRank = "Captain";
+                    text = "Weapons Company, 3rd Battalion, 1st Marines";
+                    textShort = "Wpns/3/1";
+                    description = "";
+                };
+            };
+
+            class SCC_Marines {
+                id = 0;
+                idType = 0;
+                type = "Unknown";
+                side = "West";
+                size = "Company";
+                commander = "Daniel J. Wittnam";
+                commanderRank = "Major";
+                text = "Small Craft Company";
+                textShort = "SCC";
+                description = "";
+            };
+
+            class B_2_Marines {
+                id = 0;
+                idType = 0;
+                type = "Armored";
+                side = "West";
+                size = "Company";
+                commander = "William E. O’Brien";
+                commanderRank = "Captain";
+                text = "Company B, 2nd Assault Amphibian Battalion";
+                textShort = "B/2";
+                description = "";
+            };
+
+            class 2_7_USA {
+                id = 0;
+                idType = 0;
+                type = "MechanizedInfantry";
+                side = "West";
+                size = "Battalion";
+                commander = "James E. Rainey";
+                commanderRank = ""; // TODO: set LtCol
+                text = "2nd Battalion, 7th Cavalry (Task Force 2-7)";
+                textShort = "TF 2-7";
+                description = "";
+
+                class A_7_USA {
+                    id = 0;
+                    idType = 0;
+                    type = "MechanizedInfantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Edward S. Twaddell III";
+                    commanderRank = "Captain";
+                    text = "Company A, 2nd Battalion, 7th Cavalry";
+                    textShort = "A/2/7 CAV";
+                    description = "";
+                };
+
+                class C_7_USA {
+                    id = 0;
+                    idType = 0;
+                    type = "MechanizedInfantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Christopher P. Brooke";
+                    commanderRank = "Captain";
+                    text = "Company C, 2nd Battalion, 7th Cavalry";
+                    textShort = "C/2/7 CAV";
+                    description = "";
+                };
+
+                class C_8_USA {
+                    id = 0;
+                    idType = 0;
+                    type = "Armored";
+                    side = "West";
+                    size = "Company";
+                    commander = "Peter C. Glass";
+                    commanderRank = "Captain";
+                    text = "Company C, 3rd Battalion, 8th Cavalry";
+                    textShort = "C/3/8 CAV";
+                    description = "";
+                };
+
+                class FSC_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Unknown";
+                    side = "West";
+                    size = "Company";
+                    commander = "Jake Brown";
+                    commanderRank = "Captain";
+                    text = "Company B, 215th Forward Support Battalion";
+                    textShort = "B/215 FSC";
+                    description = "";
+                };
+            };
+
+            class 1_1_IIF {
+                id = 0;
+                idType = 0;
+                type = "Infantry";
+                side = "Resistance";
+                size = "Battalion";
+                commander = "";
+                commanderRank = "";
+                text = "1st Battalion, 1st Brigade, Iraqi Intervention Force";
+                textShort = "1/1";
+                description = "";
+            };
+
+            class 4_1_IIF {
+                id = 0;
+                idType = 0;
+                type = "Infantry";
+                side = "Resistance";
+                size = "Battalion";
+                commander = "";
+                commanderRank = "";
+                text = "4th Battalion, 1st Brigade, Iraqi Intervention Force";
+                textShort = "4/1";
+                description = "";
+            };
+
+            class 36_IIF {
+                id = 0;
+                idType = 0;
+                type = "Infantry";
+                side = "Resistance";
+                size = "Battalion";
+                commander = "";
+                commanderRank = "";
+                text = "Iraqi 36th Commando Battalion";
+                textShort = "36";
+                description = "";
+            };
+        };
+
+        class RCT_7 {
+            id = 0;
+            idType = 0;
+            type = "MechanizedInfantry";
+            side = "West";
+            size = "Regiment";
+            commander = "Craig A. Tucker";
+            commanderRank = "Colonel";
+            text = "Regimental Combat Team 7";
+            textShort = "RCT-7";
+            description = "";
+
+            class 1_8_Marines {
+                id = 0;
+                idType = 0;
+                type = "Infantry";
+                side = "West";
+                size = "Battalion";
+                commander = "Gareth F. Brandl";
+                commanderRank = ""; // TODO: set LtCol
+                text = "1st Battalion, 8th Marines";
+                textShort = "1/8";
+                description = "";
+
+                class A_8_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Aaron Cunningham";
+                    commanderRank = "Captain";
+                    text = "Company A, 1st Battalion, 8th Marines";
+                    textShort = "A/1/8";
+                    description = "";
+                };
+
+                class B_8_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Read M. Omohundro";
+                    commanderRank = "Captain";
+                    text = "Company B, 1st Battalion, 8th Marines";
+                    textShort = "B/1/8";
+                    description = "";
+                };
+
+                class C_8_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Theodore Bethea";
+                    commanderRank = "Captain";
+                    text = "Company C, 1st Battalion, 8th Marines";
+                    textShort = "C/1/8";
+                    description = "";
+                };
+
+                class Wpns_8_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Stephen Kahn";
+                    commanderRank = "Captain";
+                    text = "Weapons Company, 1st Battalion, 8th Marines";
+                    textShort = "Wpns/1/8";
+                    description = "";
+                };
+            };
+
+            class C_12_Marines {
+                id = 0;
+                idType = 0;
+                type = "Artillery";
+                side = "West";
+                size = "Company";
+                commander = "John F. Kesterson";
+                commanderRank = "Captain";
+                text = "Battery C, 1st Battalion, 12th Marines";
+                textShort = "C/1/12";
+                description = "";
+            };
+
+            class A_2_Marines {
+                id = 0;
+                idType = 0;
+                type = "Armored";
+                side = "West";
+                size = "Company";
+                commander = "Christopher V. Meyers";
+                commanderRank = "Captain";
+                text = "Company A, 2nd Tank Battalion";
+                textShort = "A/2";
+                description = "";
+            };
+
+            class 1_3_Marines {
+                id = 0;
+                idType = 0;
+                type = "Infantry";
+                side = "West";
+                size = "Battalion";
+                commander = "Michael R. Ramos";
+                commanderRank = ""; // TODO: set LtCol
+                text = "1st Battalion, 3rd Marines";
+                textShort = "1/3";
+                description = "";
+
+                class A_3_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Lee A. Johnson";
+                    commanderRank = "Captain";
+                    text = "Company A, 1st Battalion, 3rd Marines";
+                    textShort = "A/1/3";
+                    description = "";
+                };
+
+                class B_3_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Jer J. Garcia";
+                    commanderRank = "Captain";
+                    text = "Company B, 1st Battalion, 3rd Marines";
+                    textShort = "B/1/3";
+                    description = "";
+                };
+
+                class C_3_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Thomas Tennant";
+                    commanderRank = "Captain";
+                    text = "Company C, 1st Battalion, 3rd Marines";
+                    textShort = "C/1/3";
+                    description = "";
+                };
+
+                class Wpns_3_Marines {
+                    id = 0;
+                    idType = 0;
+                    type = "Infantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Derek Wastilla";
+                    commanderRank = "Captain";
+                    text = "Weapons Company, 1st Battalion, 3rd Marines";
+                    textShort = "Wpns/1/3";
+                    description = "";
+                };
+            };
+
+            class C_3_Marines {
+                id = 0;
+                idType = 0;
+                type = "Armored";
+                side = "West";
+                size = "Company";
+                commander = "Scott M. Conway";
+                commanderRank = "Captain";
+                text = "Company C, 3rd Assault Amphibian Battalion";
+                textShort = "C/3";
+                description = "";
+            };
+
+            class A_3_Marines {
+                id = 0;
+                idType = 0;
+                type = "MechanizedInfantry";
+                side = "West";
+                size = "Company";
+                commander = "Michael R. Nakonieczny";
+                commanderRank = "Captain";
+                text = "Company A, 3rd Light Armored Reconnaissance Battalion";
+                textShort = "A/3";
+                description = "";
+            };
+
+            class 2_2_USA {
+                id = 0;
+                idType = 0;
+                type = "MechanizedInfantry";
+                side = "West";
+                size = "Battalion";
+                commander = "Peter A. Newell";
+                commanderRank = ""; // TODO: set LtCol
+                text = "2nd Battalion, 2nd Infantry (Task Force 2-2)";
+                textShort = "TF 2-2";
+                description = "";
+
+                class A_2_2_USA {
+                    id = 0;
+                    idType = 0;
+                    type = "MechanizedInfantry";
+                    side = "West";
+                    size = "Company";
+                    commander = "Sean P. Sims / Maj. Doug Walter";
+                    commanderRank = "Captain";
+                    text = "Company A, 2nd Battalion, 2nd Infantry";
+                    textShort = "A/2/2 INF";
+                    description = "";
+                };
+
+                class A_2_63_USA {
+                    id = 0;
+                    idType = 0;
+                    type = "Armored";
+                    side = "West";
+                    size = "Company";
+                    commander = "Neil S. Prakash";
+                    commanderRank = "Captain";
+                    text = "Company A, 2nd Battalion, 63rd Armor";
+                    textShort = "A/2/63 ARM";
+                    description = "";
+                };
+
+                class F_4_USA {
+                    id = 0;
+                    idType = 0;
+                    type = "Recon";
+                    side = "West";
+                    size = "Company";
+                    commander = "Kirk Mayfield";
+                    commanderRank = "Captain";
+                    text = "F Troop, 4th Cavalry";
+                    textShort = "F/4 CAV";
+                    description = "";
+                };
+            };
+
+            class 2_1_IIF {
+                id = 0;
+                idType = 0;
+                type = "Infantry";
+                side = "Resistance";
+                size = "Battalion";
+                commander = "";
+                commanderRank = "";
+                text = "2nd Battalion, 1st Brigade, Iraqi Intervention Force";
+                textShort = "2/1";
+                description = "";
+            };
+
+            class 5_3_IIF {
+                id = 0;
+                idType = 0;
+                type = "Infantry";
+                side = "Resistance";
+                size = "Battalion";
+                commander = "";
+                commanderRank = "";
+                text = "5th Battalion, 3rd Brigade, Iraqi Intervention Force";
+                textShort = "5/3";
+                description = "";
+            };
+        };
+    };
+};
