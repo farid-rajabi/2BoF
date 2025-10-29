@@ -15,6 +15,8 @@ A collection of ArmA 3 missions inspired from real events during the Second Batt
 
 ## Resources
 - [Fallujah: U.S. Marines in Battle](https://www.usmcu.edu/portals/218/fallujah.pdf)
+- [Second Battle of Fallujah](https://en.wikipedia.org/wiki/Second_Battle_of_Fallujah)
+- [NATO Joint Military Symbology](https://en.wikipedia.org/wiki/NATO_Joint_Military_Symbology)
 
 ## Acknoledgment
 I would like to thank Bohemia Interactive and the great community of ArmA players and modders. Thanks to Marine Corps University for sharing their comprehensive report on this battle for public. Special thanks to the developers of CUP, CFP, and LAMBS_Danger, and all the people who have shared their knowledge on the internet and made this work possible.
