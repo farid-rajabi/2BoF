@@ -1,0 +1,80 @@
+class CfgORBAT {
+
+    class TF_Wolfpack {
+        id = 0;
+        idType = 0;
+        type = "Recon";
+        side = "West";
+        size = "Battalion";
+        commander = "";
+        commanderRank = "";
+        text = "3 Task Force Wolfpack";
+        textShort = "3 TF Wolfpack";
+        description = "";
+
+		class C_3_USMC {
+			id = 0;
+			idType = 0;
+			type = "MechanizedInfantry";
+			side = "West";
+			size = "Company";
+			commander = "";
+			commanderRank = "";
+			text = "Company C, 3rd Light Armored Reconnaissance Battalion";
+			textShort = "C/3 LAR";
+			description = "";
+		};
+		
+		class B_23_USMC {
+			id = 0;
+			idType = 0;
+			type = "Infantry";
+			side = "West";
+			size = "Company";
+			commander = "";
+			commanderRank = "";
+			text = "Company B, 1st Battalion, 23rd Marines";
+			textShort = "B/1/23";
+			description = "";
+		};
+		
+		class C_9_USA {
+			id = 0;
+			idType = 0;
+			type = "MechanizedInfantry";
+			side = "West";
+			size = "Company";
+			commander = "";
+			commanderRank = "";
+			text = "Company C, 1st Battalion, 9th Infantry";
+			textShort = "C/1/9 INF";
+			description = "";
+		};
+		
+		class SCC_USMC {
+			id = 0;
+			idType = 0;
+			type = "Unknown";
+			side = "West";
+			size = "Company";
+			commander = "";
+			commanderRank = "";
+			text = "Small Craft Company";
+			textShort = "SCC";
+			description = "";
+		};
+    };
+	
+	class 36_CDO {
+		id = 0;
+		idType = 0;
+		type = "Infantry";
+		side = "Resistance";
+		size = "Battalion";
+		commander = "";
+		commanderRank = "";
+		text = "Iraqi 36th Commando Battalion";
+		textShort = "36 CDO";
+		description = "";
+	};
+};
