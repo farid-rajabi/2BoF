@@ -20,3 +20,6 @@ A collection of ArmA 3 scenarios inspired by real events during the Second Battl
 
 ## Acknowledgment
 I would like to thank Bohemia Interactive and the great community of ArmA players and modders. Thanks to Marine Corps University for sharing their comprehensive report on this battle for public. Special thanks to the developers of CUP, CFP, and LAMBS_Danger, and all the people who have shared their knowledge on the internet and made this work possible.
+
+## License
+<a rel="license" href="https://www.bohemia.net/community/licenses/arma-public-license-nd" target="_blank"><img src="https://data.bistudio.com/images/license/APL-ND.png"><br>This work is licensed under the Arma Public License No Derivatives</a>
