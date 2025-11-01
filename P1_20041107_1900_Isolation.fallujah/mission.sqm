@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=440;
+		nextID=443;
 	};
 	class MarkerIDProvider
 	{
@@ -237,7 +237,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=73;
+		items=75;
 		class Item0
 		{
 			dataType="Logic";
@@ -7572,6 +7572,126 @@ class Mission
 				};
 				nAttributes=13;
 			};
+		};
+		class Item73
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5666.0938,308.3179,5368.1128};
+				angles[]={0,4.4225998,-0};
+			};
+			side="West";
+			flags=2;
+			class Attributes
+			{
+				init="this flyInHeight 300;";
+			};
+			id=433;
+			type="CFP_B_USARMY_2003_A10A_Thunderbolt_II_DES_01";
+			atlOffset=300.00012;
+		};
+		class Item74
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7027.397,307.16461,4608.5718};
+						angles[]={0,4.4225998,-0};
+					};
+					side="West";
+					flags=2;
+					class Attributes
+					{
+					};
+					id=434;
+					type="CFP_B_USARMY_2003_Pilot_DES_01";
+					atlOffset=300.00012;
+				};
+				class Item1
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+38;
+					position[]={2780.71,0,4492.1309};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=436;
+					type="Move";
+					atlOffset=4.0524411;
+				};
+				class Item2
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+38;
+					position[]={3348.8813,6.9900088,6488.0566};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=437;
+					type="Move";
+				};
+				class Item3
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+38;
+					position[]={4577.5044,6.9907308,3044.2646};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=438;
+					type="Move";
+				};
+				class Item4
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+38;
+					position[]={5796.0762,7.3038025,4181.5991};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=439;
+					type="Cycle";
+				};
+			};
+			class Attributes
+			{
+				behaviour="CARELESS";
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=434;
+						item1=433;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+				};
+			};
+			id=432;
+			atlOffset=300.00012;
 		};
 	};
 	class Connections
