@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=456;
+		nextID=457;
 	};
 	class MarkerIDProvider
 	{
@@ -3002,7 +3002,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="Secure <marker name=""mk_obj_new_bridge"">the New Bridge</marker>.";
+							value="Secure the <marker name=""mk_obj_new_bridge"">New Bridge</marker>. Expect enemy resistance!";
 						};
 					};
 				};
@@ -3198,7 +3198,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={2029.5685,6.9900079,3485.2271};
+				position[]={2029.568,6.9900079,3485.2271};
 			};
 			name="tsk_walk";
 			id=138;
@@ -3266,7 +3266,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="Move to the rally point";
+							value="Move to the Rally Point";
 						};
 					};
 				};
@@ -3279,7 +3279,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="Move to the <marker name=""mk_join"">rally point</marker>.";
+							value="Clear the way and get to the <marker name=""mk_join"">rally point</marker> from where the coordinated attack on the bridges and the Hospital launches.";
 						};
 					};
 				};
@@ -3437,7 +3437,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="Wait for the C/3 LAR to arrive at the <marker name=""mk_join"">rally point</marker>.";
+							value="Wait for the C/3 LAR at the <marker name=""mk_join"">rally point</marker> if it has not arrived yet.";
 						};
 					};
 				};
@@ -3628,7 +3628,7 @@ class Mission
 			class Attributes
 			{
 				name="trg_wait";
-				condition="c_3_usmc_cpt in thisList";
+				condition="(c_9_usa_cpt in thisList) && (c_3_usmc_cpt in thisList)";
 				onActivation="hint ""trg_wait""";
 				sizeA=100;
 				sizeB=100;
@@ -3656,7 +3656,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={2496.3799,6.9800148,4950.4121};
+				position[]={2516.8579,6.9800148,4951.1279};
 			};
 			name="tsk_hospital";
 			id=157;
@@ -3685,7 +3685,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="wait";
+							value="defend";
 						};
 					};
 				};
@@ -3724,7 +3724,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="Secure the Hospital";
+							value="Hold the Position";
 						};
 					};
 				};
@@ -3737,7 +3737,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="";
+							value="Hold your position at the <marker name=""mk_obj_old_bridge"">Old Bridge</marker>, and wait for the Iraqi 36th CDO to secure the <marker name=""mk_obj_hospital"">Hospital</marker>.";
 						};
 					};
 				};
@@ -4579,7 +4579,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=12;
+				items=11;
 				class Item0
 				{
 					dataType="Object";
@@ -5197,24 +5197,12 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+38;
-					position[]={2583.0508,6.9907308,4118.6157};
+					position[]={2642.5112,6.9907308,4165.3496};
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=336;
-					type="Move";
-				};
-				class Item11
-				{
-					dataType="Waypoint";
-					loiterAltitude=-3.4028235e+38;
-					position[]={2552.6177,6.98282,4755.4619};
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=337;
 					type="Move";
 				};
 			};
@@ -5904,7 +5892,7 @@ class Mission
 				{
 					dataType="Waypoint";
 					loiterAltitude=-3.4028235e+38;
-					position[]={2156.7087,6.9900079,4345.1084};
+					position[]={2113.292,6.9900079,4248.709};
 					class Effects
 					{
 					};
@@ -7693,11 +7681,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=49;
+			nextID=48;
 		};
 		class Links
 		{
-			items=49;
+			items=48;
 			class Item0
 			{
 				linkID=0;
@@ -8042,7 +8030,7 @@ class Mission
 			{
 				linkID=34;
 				item0=129;
-				item1=336;
+				item1=364;
 				class CustomData
 				{
 					type="WaypointActivation";
@@ -8051,8 +8039,8 @@ class Mission
 			class Item35
 			{
 				linkID=35;
-				item0=129;
-				item1=364;
+				item0=363;
+				item1=389;
 				class CustomData
 				{
 					type="WaypointActivation";
@@ -8061,16 +8049,6 @@ class Mission
 			class Item36
 			{
 				linkID=36;
-				item0=363;
-				item1=389;
-				class CustomData
-				{
-					type="WaypointActivation";
-				};
-			};
-			class Item37
-			{
-				linkID=37;
 				item0=19;
 				item1=378;
 				class CustomData
@@ -8078,11 +8056,21 @@ class Mission
 					type="Sync";
 				};
 			};
+			class Item37
+			{
+				linkID=37;
+				item0=390;
+				item1=146;
+				class CustomData
+				{
+					type="WaypointActivation";
+				};
+			};
 			class Item38
 			{
 				linkID=38;
-				item0=390;
-				item1=146;
+				item0=363;
+				item1=249;
 				class CustomData
 				{
 					type="WaypointActivation";
@@ -8091,7 +8079,7 @@ class Mission
 			class Item39
 			{
 				linkID=39;
-				item0=363;
+				item0=389;
 				item1=249;
 				class CustomData
 				{
@@ -8101,8 +8089,8 @@ class Mission
 			class Item40
 			{
 				linkID=40;
-				item0=389;
-				item1=249;
+				item0=249;
+				item1=334;
 				class CustomData
 				{
 					type="WaypointActivation";
@@ -8111,8 +8099,8 @@ class Mission
 			class Item41
 			{
 				linkID=41;
-				item0=249;
-				item1=334;
+				item0=334;
+				item1=389;
 				class CustomData
 				{
 					type="WaypointActivation";
@@ -8122,7 +8110,7 @@ class Mission
 			{
 				linkID=42;
 				item0=334;
-				item1=389;
+				item1=363;
 				class CustomData
 				{
 					type="WaypointActivation";
@@ -8131,8 +8119,8 @@ class Mission
 			class Item43
 			{
 				linkID=43;
-				item0=334;
-				item1=363;
+				item0=274;
+				item1=249;
 				class CustomData
 				{
 					type="WaypointActivation";
@@ -8141,8 +8129,8 @@ class Mission
 			class Item44
 			{
 				linkID=44;
-				item0=274;
-				item1=249;
+				item0=331;
+				item1=334;
 				class CustomData
 				{
 					type="WaypointActivation";
@@ -8151,8 +8139,8 @@ class Mission
 			class Item45
 			{
 				linkID=45;
-				item0=331;
-				item1=334;
+				item0=399;
+				item1=400;
 				class CustomData
 				{
 					type="WaypointActivation";
@@ -8161,16 +8149,6 @@ class Mission
 			class Item46
 			{
 				linkID=46;
-				item0=399;
-				item1=400;
-				class CustomData
-				{
-					type="WaypointActivation";
-				};
-			};
-			class Item47
-			{
-				linkID=47;
 				item0=262;
 				item1=411;
 				class CustomData
@@ -8178,9 +8156,9 @@ class Mission
 					type="Sync";
 				};
 			};
-			class Item48
+			class Item47
 			{
-				linkID=48;
+				linkID=47;
 				item0=412;
 				item1=413;
 				class CustomData
