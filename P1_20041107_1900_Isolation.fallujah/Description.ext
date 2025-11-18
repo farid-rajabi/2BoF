@@ -24,7 +24,7 @@ class CfgORBAT {
 			textShort = "C/3 LAR";
 			description = "";
 		};
-		
+
 		class B_23_USMC {
 			id = 0;
 			idType = 0;
@@ -37,7 +37,7 @@ class CfgORBAT {
 			textShort = "B/1/23";
 			description = "";
 		};
-		
+
 		class C_9_USA {
 			id = 0;
 			idType = 0;
@@ -50,7 +50,7 @@ class CfgORBAT {
 			textShort = "C/1/9 INF";
 			description = "";
 		};
-		
+
 		class SCC_USMC {
 			id = 0;
 			idType = 0;
@@ -64,7 +64,7 @@ class CfgORBAT {
 			description = "";
 		};
     };
-	
+
 	class 36_CDO {
 		id = 0;
 		idType = 0;
