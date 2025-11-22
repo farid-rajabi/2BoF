@@ -5,22 +5,116 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=1025;
+	class ItemIDProvider
+	{
+		nextID=6;
+	};
 	class Camera
 	{
-		pos[]={9457.0273,17,5635.4287};
-		dir[]={-0.16588695,-0.17364819,0.97073579};
-		up[]={-0.029250348,0.98480779,0.17116693};
-		aside[]={0.98571098,0,0.16844603};
+		pos[]={3930.6931,29.273235,6894.2246};
+		dir[]={-0.9423998,-0.32559162,-0.077491269};
+		up[]={-0.32452735,0.94549841,-0.026685013};
+		aside[]={-0.081954166,-1.3590761e-07,0.99670494};
 	};
 };
 binarizationWanted=0;
 sourceName="P1_20041108_1900_Train_Station";
+addons[]=
+{
+	"A3_Modules_F_Curator_Misc",
+	"A3_Characters_F"
+};
 class AddonsMetaData
 {
+	class List
+	{
+		items=2;
+		class Item0
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
 };
 randomSeed=4865297;
 class ScenarioData
 {
 	author="Farid";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2010;
+		month=1;
+		day=11;
+		hour=12;
+		minute=0;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=2;
+		class Item0
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3500,6.9900088,7440};
+			};
+			areaSize[]={500,0,1000};
+			areaIsRectangle=1;
+			flags=1;
+			id=0;
+			type="ModuleCoverMap_F";
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3047.3477,7.7998757,7393.6826};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=5;
+					type="B_Soldier_A_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=4;
+		};
+	};
 };
