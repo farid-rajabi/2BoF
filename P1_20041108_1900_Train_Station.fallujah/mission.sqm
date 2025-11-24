@@ -12,7 +12,11 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=196;
+		nextID=206;
+	};
+	class MarkerIDProvider
+	{
+		nextID=3;
 	};
 	class Camera
 	{
@@ -51,13 +55,14 @@ addons[]=
 	"CFP_O_ALQAEDA",
 	"A3_Modules_F_StrategicMap",
 	"A3_Modules_F_Hc",
-	"A3_Modules_F"
+	"A3_Modules_F",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=22;
+		items=23;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -182,6 +187,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item22
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 dlcs[]=
@@ -217,7 +229,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=35;
+		items=44;
 		class Item0
 		{
 			dataType="Logic";
@@ -268,7 +280,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=17;
+				items=18;
 				class Item0
 				{
 					dataType="Object";
@@ -1651,6 +1663,18 @@ class Mission
 					id=179;
 					type="Move";
 				};
+				class Item17
+				{
+					dataType="Waypoint";
+					loiterAltitude=-3.4028235e+38;
+					position[]={3499.4385,6.9900088,6788.1323};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=199;
+					type="Move";
+				};
 			};
 			class Attributes
 			{
@@ -2299,7 +2323,7 @@ class Mission
 					};
 					id=46;
 					type="CFP_B_USARMY_2003_Crewman_DES_01";
-					atlOffset=2.4120002;
+					atlOffset=2.4123797;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4566,7 +4590,7 @@ class Mission
 					};
 					id=50;
 					type="CFP_B_USARMY_2003_Crewman_DES_01";
-					atlOffset=2.4120007;
+					atlOffset=2.4123507;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5314,6 +5338,255 @@ class Mission
 					};
 				};
 				nAttributes=7;
+			};
+		};
+		class Item35
+		{
+			dataType="Marker";
+			position[]={3678.7119,7.4559999,6852.48};
+			name="mk_ts_building";
+			text="Secure";
+			type="mil_objective";
+			colorName="ColorGUER";
+			id=196;
+			atlOffset=0.015991688;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ENH_markerShape";
+					expression="if (_value != 'NONE' && isServer) then {_this setMarkerShape _value}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="NONE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item36
+		{
+			dataType="Marker";
+			position[]={3216.843,6.9899998,6817.9678};
+			name="mk_sbf";
+			text="Support by Fire";
+			type="mil_marker";
+			colorName="ColorWEST";
+			id=197;
+			atlOffset=-9.059906e-06;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ENH_markerShape";
+					expression="if (_value != 'NONE' && isServer) then {_this setMarkerShape _value}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="NONE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item37
+		{
+			dataType="Marker";
+			position[]={3492.0259,6.9900088,7146.6201};
+			name="mk_arrow_1";
+			type="mil_arrow2";
+			colorName="ColorWEST";
+			angle=176.42366;
+			id=198;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ENH_markerShape";
+					expression="if (_value != 'NONE' && isServer) then {_this setMarkerShape _value}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="NONE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item38
+		{
+			dataType="Marker";
+			position[]={3724.4241,6.9900088,7160.8213};
+			name="mk_arrow_2";
+			type="mil_arrow2";
+			colorName="ColorGUER";
+			angle=180.40744;
+			id=200;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ENH_markerShape";
+					expression="if (_value != 'NONE' && isServer) then {_this setMarkerShape _value}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="NONE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item39
+		{
+			dataType="Marker";
+			position[]={3791.562,6.9899998,7322.209};
+			name="mk_arrow_3";
+			type="mil_arrow";
+			colorName="ColorWEST";
+			angle=170.44;
+			id=201;
+			atlOffset=-9.059906e-06;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ENH_markerShape";
+					expression="if (_value != 'NONE' && isServer) then {_this setMarkerShape _value}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="NONE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item40
+		{
+			dataType="Marker";
+			position[]={3244.134,6.9910002,7293.8062};
+			name="mk_arrow_4";
+			type="mil_arrow";
+			colorName="ColorWEST";
+			angle=178.929;
+			id=202;
+			atlOffset=0.00047397614;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ENH_markerShape";
+					expression="if (_value != 'NONE' && isServer) then {_this setMarkerShape _value}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="NONE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item41
+		{
+			dataType="Marker";
+			position[]={3266.7019,10.440347,7874.2969};
+			name="mk_arrow_5";
+			type="mil_arrow";
+			colorName="ColorWEST";
+			angle=180.00002;
+			id=203;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ENH_markerShape";
+					expression="if (_value != 'NONE' && isServer) then {_this setMarkerShape _value}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="NONE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item42
+		{
+			dataType="Marker";
+			position[]={3707.1782,7.7604785,7907.0352};
+			name="mk_arrow_6";
+			type="mil_arrow";
+			colorName="ColorWEST";
+			angle=170.75394;
+			id=204;
+			atlOffset=4.7683716e-07;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ENH_markerShape";
+					expression="if (_value != 'NONE' && isServer) then {_this setMarkerShape _value}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="NONE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item43
+		{
+			dataType="Marker";
+			position[]={3647.6541,7.9219999,7901.083};
+			name="mk_arrow_7";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=178.929;
+			id=205;
+			atlOffset=2.4795532e-05;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ENH_markerShape";
+					expression="if (_value != 'NONE' && isServer) then {_this setMarkerShape _value}";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="NONE";
+						};
+					};
+				};
+				nAttributes=1;
 			};
 		};
 	};
