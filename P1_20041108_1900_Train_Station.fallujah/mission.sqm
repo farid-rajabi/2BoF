@@ -12,14 +12,14 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=194;
+		nextID=196;
 	};
 	class Camera
 	{
-		pos[]={3586.1138,54.083164,8224.6914};
-		dir[]={0.73522669,-0.52613223,0.42734843};
-		up[]={0.4548744,0.85040277,0.26439446};
-		aside[]={0.50252473,0,-0.86456293};
+		pos[]={3637.2371,31.990009,6846.0229};
+		dir[]={0.77401805,-0.56445646,0.28690302};
+		up[]={0.52927035,0.82545793,0.19618346};
+		aside[]={0.34756374,-2.0395964e-07,-0.93767005};
 	};
 };
 binarizationWanted=0;
@@ -50,7 +50,8 @@ addons[]=
 	"lambs_wp",
 	"CFP_O_ALQAEDA",
 	"A3_Modules_F_StrategicMap",
-	"A3_Modules_F_Hc"
+	"A3_Modules_F_Hc",
+	"A3_Modules_F"
 };
 class AddonsMetaData
 {
@@ -216,7 +217,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=34;
+		items=35;
 		class Item0
 		{
 			dataType="Logic";
@@ -5180,6 +5181,139 @@ class Mission
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item34
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3678.3999,6.9900088,6856.7109};
+			};
+			areaSize[]={1,-1,1};
+			id=195;
+			type="ModuleEditTerrainObject_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#name";
+					expression="_this setVariable [""#name"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=7;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="#initServer";
+					expression="_this setVariable [""#initServer"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="#state";
+					expression="_this setVariable [""#state"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="#allowDamage";
+					expression="_this setVariable [""#allowDamage"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="#doorStates";
+					expression="_this setVariable [""#doorStates"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="#init";
+					expression="_this setVariable [""#init"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=7;
 			};
 		};
 	};
